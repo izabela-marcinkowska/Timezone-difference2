@@ -29,6 +29,14 @@
     <form action="timezone_diff.php" method="post" class="pure-form pure-form-aligned">
       <fieldset>
         <div class="pure-control-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="pure-control-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="pure-control-group">
           <label for="datetime1">Datetime 1:</label>
           <input type="datetime-local" id="datetime1" name="datetime1">
         </div>
